@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Elena Abilova](https://up.htmlacademy.ru/htmlcss/27/user/391741).
-* Наставник: `Неизвестно`.
+* Наставник: [Святослав Родионов](https://htmlacademy.ru/profile/rodionsv). 
 
 ---
 
