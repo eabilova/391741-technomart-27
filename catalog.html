@@ -21,7 +21,12 @@
           </li>
           <li>
             <form>
-              <input class="search-button" type="search" name="search" placeholder="Поиск">
+              <p>
+                <label>
+                <input class="search-button" type="search" name="search" placeholder="Поиск">
+                <input class="visually-hidden" type="submit" value="Найти">
+                </label>
+              </p>
             </form>
           </li>
           <li>
@@ -86,8 +91,13 @@
         <fieldset>
           <legend class="filter-title">Цена:</legend>
           <div class="range-back">
-            <div class="range-slider-pin range-slider-pin-min"></div>
-            <div class="range-slider-pin range-slider-pin-max"></div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
           </div>
           <label class="visually-hidden" for="min-price">Минимальная цена</label>
           <input class="filter-min-price range-back" type="number" name="min-price" id="min-price" value="0">
