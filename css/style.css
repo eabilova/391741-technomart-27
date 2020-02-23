@@ -281,8 +281,7 @@ body {
 .page-list,
 .footer-menu,
 .footer-submenu,
-.breadcrumbs,
-.filter-list {
+.breadcrumbs {
   list-style: none;
 }
 

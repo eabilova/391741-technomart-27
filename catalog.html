@@ -35,8 +35,7 @@
           </li>
         </ul>
         <p class="intro-text">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <p class="intro-address"><a class="intro-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
-          <br> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        <p class="intro-address"><a class="intro-phone" href="tel:+78125550555">+7 (812) 555-05-55</a> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         </p>
         <ul class="sign">
           <li>
@@ -87,36 +86,37 @@
         <fieldset>
           <legend class="filter-title">Цена:</legend>
           <div class="range-back">
-            <input type="range" min="0" max="30000" step="100">
+            <div class="range-slider-pin range-slider-pin-min"></div>
+            <div class="range-slider-pin range-slider-pin-max"></div>
           </div>
-          <input class="filter-min-price range-back" type="text" name="min-price" value="0">
+          <label class="visually-hidden" for="min-price">Минимальная цена</label>
+          <input class="filter-min-price range-back" type="number" name="min-price" id="min-price" value="0">
           <span>&#8212;</span>
-          <input class="filter-max-price range-back" type="text" name="max-price" value="30000">
+          <label class="visually-hidden" for="max-price">Максимальная цена</label>
+          <input class="filter-max-price range-back" type="number" name="max-price" id="max-price" value="30000">
         </fieldset>
         <fieldset class="producers">
           <legend class="filter-title">Производители:</legend>
-          <ul class="filter-list">
-            <li>
-              <input type="checkbox" name="Bosch" id="filter-Bosch" checked>
-              <label for="filter-Bosch">Bosch</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Interskol" id="filter-Interskol">
-              <label for="filter-Interskol">Интерскол</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Makita" id="filter-Makita" checked>
-              <label for="filter-Makita">Makita</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Dewalt" id="filter-Dewalt">
-              <label for="filter-Dewalt">Dewalt</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Hitachi" id="filter-Hitachi">
-              <label for="filter-Hitachi">Hitachi</label>
-            </li>
-          </ul>
+          <p>
+            <input type="checkbox" name="Bosch" id="filter-Bosch" checked>
+            <label for="filter-Bosch">Bosch</label>
+          </p>
+          <p>
+            <input type="checkbox" name="Interskol" id="filter-Interskol">
+            <label for="filter-Interskol">Интерскол</label>
+          </p>
+          <p>
+            <input type="checkbox" name="Makita" id="filter-Makita" checked>
+            <label for="filter-Makita">Makita</label>
+          </p>
+          <p>
+            <input type="checkbox" name="Dewalt" id="filter-Dewalt">
+            <label for="filter-Dewalt">Dewalt</label>
+          </p>
+          <p>
+            <input type="checkbox" name="Hitachi" id="filter-Hitachi">
+            <label for="filter-Hitachi">Hitachi</label>
+          </p>
         </fieldset>
         <fieldset class="charge-type">
           <legend class="filter-title">Питание:</legend>
@@ -130,8 +130,8 @@
               <label for="filter-net">Сетевые</label>
             </li>
           </ul>
-          <a class="show-button" href="#">Показать</a>
-        </div>
+          <button class="show-button" type="submit">Показать</button>
+        </fieldset>
       </section>
       <section>
         <h2 class="visually-hidden">Каталог товаров</h2>
@@ -316,7 +316,7 @@
       <section class="about-tool-section">
         <h2 class="about-tool-title">Пара слов о перфораторах</h2>
         <p class="about-tool-descr">
-          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
         </p>
       </section>
     </main>
@@ -346,8 +346,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p class="copyright">2010-2017 Компания	&laquo;Техномарт&raquo;
-          <br> Все права защищены
+        <p class="copyright">2010-2017 Компания	&laquo;Техномарт&raquo; Все права защищены
         </p>
         <ul class="social-list">
           <li class="logo-back">
