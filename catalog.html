@@ -23,9 +23,9 @@
             <form>
               <p>
                 <label>
-                <input class="search-button" type="search" name="search" placeholder="Поиск">
-                <input class="visually-hidden" type="submit" value="Найти">
+                  <input class="search-button" type="search" name="search" placeholder="Поиск">
                 </label>
+                <input class="visually-hidden" type="submit" value="Найти">
               </p>
             </form>
           </li>
@@ -92,11 +92,10 @@
           <legend class="filter-title">Цена:</legend>
           <div class="range-controls">
             <div class="scale">
+              <div class="toggle toggle-min"></div>
               <div class="bar" style="margin-left: 20%; width: 30%"></div>
+              <div class="toggle toggle-max"></div>
             </div>
-            <div class="toggle toggle-min"></div>
-            <div class="toggle toggle-max"></div>
-          </div>
           </div>
           <label class="visually-hidden" for="min-price">Минимальная цена</label>
           <input class="filter-min-price range-back" type="number" name="min-price" id="min-price" value="0">
