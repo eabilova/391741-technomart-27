@@ -62,8 +62,8 @@
         </ul>
       </nav>
     </header>
-    <main class="center">
-      <ul class="cards">
+    <main>
+      <ul class="cards center">
         <li class="cards-materials">
           <p class="cards-title">Материалы</p>
           <a class="cards-subtitle cards-link" href="#">На любой вкус</a>
@@ -114,7 +114,7 @@
           </ul>
         </li>
       </ul>
-      <section>
+      <section class="center">
         <div class="pop-section">
           <h2 class="pop-title">Популярные товары:</h2>
           <a class="pop-subtitle" href="">Все популярные товары</a>
@@ -171,104 +171,110 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="center">
         <div class="pop-section">
           <h2 class="pop-title">Популярные производители:</h2>
           <a class="pop-subtitle" href="">Все производители</a>
         </div>
         <ul class="brand-list">
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/bosch.png" width="126" height="37" alt="Bosch">
+            <a class="brand-image" href="#">
+            <img src="img/bosch.png" width="126" height="37" alt="Bosch">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/makita.png" width="123" height="40" alt="Makita">
+            <a class="brand-image" href="#">
+            <img src="img/makita.png" width="123" height="40" alt="Makita">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/de-walt.png" width="146" height="44" alt="DeWalt">
+            <a class="brand-image" href="#">
+            <img src="img/de-walt.png" width="146" height="44" alt="DeWalt">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/interskol.png" width="200" height="88" alt="Интерскол">
+            <a class="brand-image" href="#">
+            <img src="img/interskol.png" width="200" height="88" alt="Интерскол">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/hitachi.png" width="169" height="31" alt="Hitachi">
+            <a class="brand-image" href="#">
+            <img src="img/hitachi.png" width="169" height="31" alt="Hitachi">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/lg.png" width="121" height="73" alt="LG">
+            <a class="brand-image" href="#">
+            <img src="img/lg.png" width="121" height="73" alt="LG">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/aeg.png" width="151" height="96" alt="AEG Power Solutions">
+            <a class="brand-image" href="#">
+            <img src="img/aeg.png" width="151" height="96" alt="AEG Power Solutions">
             </a>
           </li>
           <li class="brand-item">
-            <a href="#">
-            <img class="brand-image" src="img/metabo.png" width="204" height="69" alt="Metabo">
+            <a class="brand-image" href="#">
+            <img src="img/metabo.png" width="204" height="69" alt="Metabo">
             </a>
           </li>
         </ul>
       </section>
+      <!-- <div class="tab">
+        <input type="radio" id="tab-1" name="tab-group-1" checked>
+        <label for="tab-1">Tab One</label>
+        <div class="content">
+            <p>Stuff for Tab One</p>
+        </div>
+    </div>
+ </div> -->
       <section class="services">
-        <h2 class="services-title">Сервисы</h2>
+        <div class="center">
+          <h2 class="services-title">Сервисы</h2>
         <p class="services-descr">Хороший интернет-магазин отличается от плохого не только ценами!
            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <ul class="service-list">
           <li>
-            <button class="service-list-tab">Доставка</button>
+            <button class="service-list-tab delivery-tab">Доставка</button>
           </li>
           <li>
-            <button class="service-list-tab">Гарантия</button>
+            <button class="service-list-tab guarantee-tab">Гарантия</button>
           </li>
           <li>
-            <button class="service-list-tab">Кредит</button>
+            <button class="service-list-tab credit-tab">Кредит</button>
           </li>
         </ul>
         <ul class="service-descr-list">
           <li>
-            <section>
+            <section class="service-descr-block delivery">
               <h3 class="service-descr-title">Доставка</h3>
               <p class="service-description">Мы с удовольствием доставим ваш товар прямо
                 к вашему подъезду совершенно бесплатно!
-                Ведь мы неплохо заработаем,
-                поднимая его на ваш этаж!
+                Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!
               </p>
-              <img src="img/delivery.png" width="468" height="261" alt="Грузовик">
             </section>
           </li>
           <li>
-            <section>
+            <section class="service-descr-block guarantee">
               <h3 class="service-descr-title">Гарантия</h3>
               <p class="service-description">Если купленный у нас товар поломается или заискрит,
                 а также в случае пожара, спровоцированного его возгоранием,
                 вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
                 Дом уж восстановите как-нибудь сами.
               </p>
-              <img src="img/guarantee.png" width="389" height="283" alt="Значок">
             </section>
           </li>
           <li>
-            <section>
+            <section class="service-descr-block credit">
               <h3 class="service-descr-title">Кредит</h3>
               <p class="service-description">Залезть в долговую яму стало проще!
                 Кредитные консультанты придут вам на помощь.
               </p>
               <a class="cards-subtitle open-catalog" href="">отправить заявку</a>
-              <img src="img/credit.png" width="465" height="285" alt="Бланк">
             </section>
           </li>
         </ul>
+        </div>
       </section>
   <section>
         <h2 class="about-section-title">Компания "Техномарт"</h2>
