@@ -942,6 +942,17 @@ body {
   background-color: #293449;
   border: none;
 }
+.delivery-tab:focus ~ .service-descr-block.delivery{
+  display:block;
+}
+
+.guarantee-tab:focus ~ .service-descr-block.guarantee{
+  display:block;
+}
+
+.credit-tab:focus ~ .service-descr-block.credit{
+  display:block;
+}
 
 .service-list-tab:focus {
   color: #32425c;
