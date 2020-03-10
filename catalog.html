@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="page-header">
+    <header>
       <nav class="page-header">
         <div class="header-menu">
           <div class="center header-menu-container">
@@ -28,8 +28,8 @@
               <li class="favourites">
                 <a class="favourites-title" href="#">Закладки: 0</a>
               </li>
-              <li class="bin">
-                <a class="bin-title" href="#">Корзина: 0</a>
+              <li class="bin active-bin">
+                <a class="bin-title" href="#">Корзина: 10</a>
               </li>
               <li class="order-link">
                 <a class="order-link-title" href="#">Оформить заказ</a>
@@ -42,15 +42,14 @@
           <p class="intro-address">
             <a class="intro-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
           </p>
-          <ul class="user-account">
+          <ul class="user-account in-account">
             <li>
               <a class="user-name" href="">Равшан Джамшутович</a>
             </li>
-            <li>
-              <a href="">Мои заказы</a>
-            </li>
-            <li>
-              <a href="">Личный кабинет</a>
+            <li class="my-data">
+              <a class="my-orders" href="">Мои заказы</a>
+              <span class="bullet">&#x2022;</span>
+              <a class="my-account" href="">Личный кабинет</a>
             </li>
           </ul>
         </div>
@@ -65,9 +64,9 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="center">
       <ul class="breadcrumbs">
-        <li>
+        <li class="home-page-link">
           <a class="visually-hidden" href="index.html">Home</a>
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
             <g fill="#C1C6CE">
@@ -76,10 +75,10 @@
             </g>
           </svg>
         </li>
-        <li>
+        <li class="catalog-page-link">
           <a class="breadcrumbs-item" href="">Каталог</a>
         </li>
-        <li>
+        <li class="tools-page-link">
           <a class="breadcrumbs-item" href="#">Инструмент</a>
         </li>
         <li>
