@@ -1194,84 +1194,6 @@ body {
   margin-bottom: 32px;
 }
 
-.contact-form {
-  position: relative;
-  display: none;
-  width: 620px;
-  background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(41, 52, 73, 0.5);
-  border-top: 3px solid #ee3643;
-
-}
-.contact-form-top {
-  display: flex;
-  flex-wrap: wrap;
-  width: 460px;
-  margin: 0 auto;
-  margin-top: 48px;
-  margin-bottom: 37px;
-}
-
-.form-item {
-  display: inline-block;
-  width: 220px;
-}
-
-.form-item:first-child {
-  margin-right: 20px;
-}
-
-.name-placeholder,
-.email-placeholder {
-  font-family: "PT Sans";
-  font-size: 13px;
-  line-height: 18px;
-  width: 224px;
-  box-sizing: border-box;
-  padding-top: 12px;
-  padding-bottom: 13px;
-  padding-left: 16px;
-  color: #a9a9a9;
-  border: 2px solid #dee3e4;
-}
-
-.text-placeholder {
-  display: block;
-  box-sizing: border-box;
-  font-family: "PT Sans";
-  font-size: 13px;
-  line-height: 18px;
-  width: 464px;
-  min-height: 116px;
-  padding-top: 0;
-  color: #a9a9a9;
-  border: 2px solid #dee3e4;
-  padding: 0;
-  padding-left: 16px;
-}
-
-.form-elements {
-  font-size: 18px;
-  line-height: 18px;
-  color: #000000;
-  text-align: left;
-  margin-bottom: 13px;
-}
-
-.button-back {
-  display: block;
-  box-sizing: border-box;
-  width: 620px;
-  background-color: #f4f4f4;
-  padding: 37px 80px;
-}
-
-.close-button {
-  position: absolute;
-  top: 9px;
-  right: 9px;
-}
-
 .shipment-list {
   font-size: 18px;
   line-height: 20px;
@@ -1516,11 +1438,153 @@ body {
   color: #ee3643;
 }
 
+/* Modal pop-ups */
+
 .big-map {
   margin: 0 auto;
   display: none;
 }
 
+.contact-form {
+  position: relative;
+  display: none;
+  width: 620px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(41, 52, 73, 0.5);
+  border-top: 3px solid #ee3643;
+
+}
+.contact-form-top {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 37px;
+}
+
+.form-item {
+  display: inline-block;
+  width: 220px;
+}
+
+.form-item:first-child {
+  margin-right: 20px;
+}
+
+.name-placeholder,
+.email-placeholder {
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  width: 224px;
+  box-sizing: border-box;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  color: #a9a9a9;
+  border: 2px solid #dee3e4;
+}
+
+.text-placeholder {
+  display: block;
+  box-sizing: border-box;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+  width: 464px;
+  min-height: 116px;
+  padding-top: 0;
+  color: #a9a9a9;
+  border: 2px solid #dee3e4;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.form-elements {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.button-back {
+  display: block;
+  box-sizing: border-box;
+  width: 620px;
+  background-color: #f4f4f4;
+  padding: 37px 80px;
+}
+
+.close-button {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+}
+
+.added-cart-form {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  width: 620px;
+  border-top: solid 7px #ee3643;
+  box-shadow: 0 0 10px rgba(41, 52, 73, 0.5);
+}
+
+.cart-form-title {
+  font-family: 'Cuprum';
+  font-size: 30px;
+}
+
+.cart-form-title::before {
+  content: '';
+  display: inline-block;
+  background-image: url('../img/modal-check.svg');
+  width: 66px;
+  height: 66px;
+  vertical-align: middle;
+  margin-right: 32px;
+}
+
+.make-order-button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 11px 62px 10px 59px;
+  background-color: #ee3643;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.make-order-button:hover {
+  background-color: #ca2c37;
+}
+
+.make-order-button:active {
+  background-color: #ba2732;
+}
+
+.continue-shopping-button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 11px 43px 10px 47px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Filter and Sorting sections */
 .sort-item {
   font-family: "PT Sans", sans-serif;
   font-size: 13px;
@@ -1632,26 +1696,6 @@ body {
   text-transform: uppercase;
 }
 
-.catalog-header {
-  display: block;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #32425c;
-  background-color: #f4f7f9;
-  padding-top: 30px;
-  padding-bottom: 27px;
-  padding-left: 28px;
-  margin-top: 17px;
-}
-
-.catalog-page {
-  display: flex;
-  flex-direction: row;
-}
-
 .filter-section {
   min-width: 220px;
   margin-right: 20px;
@@ -1725,30 +1769,6 @@ body {
   border: 1px solid #e5e5e5;
 }
 
-.about-tool-section {
-  background-color: #f4f7f9;
-  padding-top: 67px;
-  padding-bottom: 56px;
-}
-
-.about-tool-title {
-  font-family: 'Cuprum';
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #000000;
-  margin-bottom: 24px;
-}
-
-.about-tool-descr {
-  font-family: 'PT Sans';
-  font-size: 13px;
-  line-height: 24px;
-  text-align: left;
-  color: #000000;
-}
 
 .range-controls {
   position: relative;
@@ -1956,4 +1976,51 @@ body {
   display: flex;
   margin-top: 32px;
   margin-bottom: 60px;
+}
+
+
+/* Catalog Elements */
+.catalog-header {
+  display: block;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #32425c;
+  background-color: #f4f7f9;
+  padding-top: 30px;
+  padding-bottom: 27px;
+  padding-left: 28px;
+  margin-top: 17px;
+}
+
+.catalog-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-tool-section {
+  background-color: #f4f7f9;
+  padding-top: 67px;
+  padding-bottom: 56px;
+}
+
+.about-tool-title {
+  font-family: 'Cuprum';
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.about-tool-descr {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
 }
