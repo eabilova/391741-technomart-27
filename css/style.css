@@ -4,12 +4,13 @@ body {
   margin: 0 auto;
   padding: 0;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
+  font-family: "Cuprum", "Arial", sans-serif;
   color: #000000;
+
   background-color: #ffffff;
 }
 
@@ -65,8 +66,9 @@ body {
   width: 220px;
   height: 47px;
 
-  box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
   text-align: center;
+
+  box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
 .header-logo:hover {
@@ -87,10 +89,11 @@ body {
   padding: 0;
 
   font-size: 17px;
-  font-weight: normal;
   line-height: 18px;
-  color: #ffffff;
+  font-weight: normal;
   text-align: left;
+  color: #ffffff;
+
   list-style: none;
 }
 
@@ -122,16 +125,17 @@ body {
   height: 42px;
   margin: 0;
 
-  background-color: #293449;
   color: #ffffff;
+
+  background-color: #293449;
   border: none;
 }
 
 .search-button::placeholder {
   padding-left: 47px;
 
-  color: #ffffff;
   line-height: 18px;
+  color: #ffffff;
 }
 
 .search-icon {
@@ -167,8 +171,9 @@ body {
 .search-button:focus {
   padding-left: 49px;
 
-  background-color: #ffffff;
   color: #000000;
+
+  background-color: #ffffff;
 }
 
 .favourites,
@@ -182,13 +187,14 @@ body {
 
   vertical-align: middle;
   text-align: left;
+
   background-color: #293449;
 }
 
 .favourites-title,
 .bin-title {
-  color: #ffffff;
   text-align: left;
+  color: #ffffff;
 }
 
 .favourites:before {
@@ -197,8 +203,9 @@ body {
   height: 16px;
   margin-right: 10px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"%3E%3Cpath fill="grey" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/%3E%3C/svg%3E%0A');
   background-repeat: no-repeat;
   background-position: center;
@@ -222,8 +229,9 @@ body {
   height: 15px;
   margin-right: 13px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="grey"%3E%3Ccircle cx="4.5" cy="13.5" r="1.5"/%3E%3Ccircle cx="12.5" cy="13.5" r="1.5"/%3E%3Cpath d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/%3E%3C/svg%3E%0A');
   background-repeat: no-repeat;
   background-position: center;
@@ -268,6 +276,7 @@ body {
 
   vertical-align: middle;
   text-align: center;
+
   background-color: #63a63e;
 }
 
@@ -276,8 +285,9 @@ body {
 }
 
 .order-link:active {
-  background-color: #518534;
   color: rgba(255, 255, 255, 0.5);
+
+  background-color: #518534;
 }
 
 .order-link-title {
@@ -286,6 +296,7 @@ body {
 
 .order-link-title:active {
   color: #ffffff;
+
   opacity: 0.5;
 }
 
@@ -305,11 +316,11 @@ body {
   margin-left: 52px;
 
   font-size: 16px;
-  font-weight: normal;
   line-height: 23px;
-  color: #ee3643;
+  font-weight: normal;
   font-style: italic;
   text-align: left;
+  color: #ee3643;
   vertical-align: middle;
 }
 
@@ -317,10 +328,10 @@ body {
   margin-top: 0px;
 
   font-size: 14px;
-  font-weight: normal;
   line-height: 24px;
-  color: #32425c;
+  font-weight: normal;
   text-align: center;
+  color: #32425c;
 }
 
 .intro-phone {
@@ -333,10 +344,11 @@ body {
   padding: 9px 42px 11px 12px;
 
   font-size: 21px;
-  font-weight: normal;
   line-height: 21px;
-  color: #ee3643;
+  font-weight: normal;
   text-align: left;
+  color: #ee3643;
+
   text-decoration: none;
   border: 3px solid #ffffff;
 }
@@ -347,8 +359,10 @@ body {
   height: 19px;
   margin-right: 40px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -371,14 +385,15 @@ body {
   padding-bottom: 10px;
 
   font-size: 21px;
-  font-weight: normal;
   line-height: 21px;
+  font-weight: normal;
   text-align: left;
+  vertical-align: middle;
+  color: #000000;
+
   text-decoration: none;
   background-color: #ffffff;
-  color: #000000;
   list-style: none;
-  vertical-align: middle;
 }
 
 .sign-in {
@@ -394,8 +409,9 @@ body {
   height: 17px;
   margin-right: 14px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
   background-image: url("../img/icon-login.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -438,8 +454,9 @@ body {
   margin-right: 15px;
   margin-left: 15px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
   background-image: url("../img/icon-user.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -452,8 +469,9 @@ body {
   margin-right: 10px;
   margin-left: 36px;
 
-  content: "";
   vertical-align: middle;
+
+  content: "";
   background-image: url("../img/icon-logout.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -486,9 +504,9 @@ body {
 .my-orders,
 .my-account,
 .bullet {
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+  font-weight: normal;
   color: #32425c;
 }
 
@@ -509,9 +527,10 @@ body {
   display: flex;
 
   font-size: 17px;
-  font-weight: normal;
   line-height: 17px;
+  font-weight: normal;
   color: #ffffff;
+
   background-color: #32425c;
   box-shadow: inset 0 -5px 0 0 #293449;
   list-style: none;
@@ -533,8 +552,9 @@ body {
 
 .main-link .main-link-a {
   letter-spacing: normal;
-  text-decoration: none;
   color: #ffffff;
+
+  text-decoration: none;
 }
 
 .main-link:hover {
@@ -542,8 +562,9 @@ body {
 }
 
 .main-link:active {
-  background-color: #1d2739;
   color:rgba(255, 255, 255, 0.5);
+
+  background-color: #1d2739;
 }
 
 /* Body of the page */
@@ -561,6 +582,7 @@ body {
   color: #ffffff;
   text-align: left;
   font-weight: normal;
+
   list-style: none;
 }
 
@@ -670,10 +692,11 @@ body {
 .pop-subtitle {
   font-size: 14px;
   line-height: 18px;
-  text-decoration: none;
   color: #ffffff;
-  text-transform: uppercase;
   text-align: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .sliders,
@@ -758,10 +781,11 @@ body {
   margin-bottom: 3px;
 
   font-size: 36px;
-  font-weight: bold;
   line-height: 36px;
+  font-weight: bold;
   color: #ffffff;
   text-align: left;
+
   text-transform: uppercase;
 }
 
@@ -771,8 +795,8 @@ body {
   margin-bottom: 120px;
 
   font-size: 18px;
-  font-weight: normal;
   line-height: 24px;
+  font-weight: normal;
   color: #ffffff;
   text-align: left;
 }
@@ -785,8 +809,9 @@ body {
   width: 195px;
   padding: 11px 45px 10px 49px;
 
-  background-color: #ee3643;
   vertical-align: middle;
+
+  background-color: #ee3643;
 }
 
 .open-catalog:hover {
@@ -813,16 +838,17 @@ body {
   margin-top: 28px;
   margin-bottom: 28px;
 
+  font-size: 30px;
+  line-height: 30px;
   vertical-align: middle;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: normal;
-  font-size: 30px;
-  line-height: 30px;
-  text-decoration: none;
-  color: #32425c;
-  text-transform: uppercase;
   text-align: left;
+  color: #32425c;
+
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .pop-subtitle {
@@ -879,14 +905,15 @@ body {
   width: 160px;
   margin-top: -15px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
-  font-weight: 700;
   line-height: 20px;
+  font-weight: 700;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
-  text-decoration: none;
   color: #000000;
   vertical-align: middle;
+
+  text-decoration: none;
 }
 
 .action-list {
@@ -915,6 +942,7 @@ body {
 
 .action-buy a {
   color: #ffffff;
+
   text-decoration: none;
 }
 
@@ -929,9 +957,10 @@ body {
   padding-bottom: 8px;
   padding-right: 44px;
 
+  color: #ffffff;
+
   background-color: #367315;
   text-decoration: none;
-  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -964,14 +993,16 @@ body {
   box-sizing: border-box;
   padding: 5px 30px 5px 32px;
 
+  vertical-align: middle;
+
   text-transform: uppercase;
   background-color: #ffffff;
   border: 3px solid #63a63e;
-  vertical-align: middle;
 }
 
 .action-fav a {
   color: #32425c;
+
   text-decoration: none;
 }
 
@@ -988,12 +1019,13 @@ body {
   margin-top: -3px;
   margin-bottom: 68px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
   font-size: 17px;
   line-height: 18px;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   color: #a9a9a9;
+
   text-decoration: line-through;
 }
 
@@ -1007,13 +1039,14 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
   font-size: 17px;
   line-height: 18px;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   color: #ffffff;
-  background-image: url(../img/item-button.svg);
+
+  background-image: url('../img/item-button.svg');
 }
 
 /* Popular brands section */
@@ -1030,9 +1063,10 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
 
-  border: 1px solid #eaeaea;
   vertical-align: middle;
   text-align: center;
+
+  border: 1px solid #eaeaea;
 }
 
 .brand-item:nth-child(4n+4) {
@@ -1086,13 +1120,14 @@ body {
   margin-top: 68px;
   margin-bottom: 12px;
 
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
+  font-weight: normal;
   color: #000000;
-  text-transform: uppercase;
   text-align: left;
   vertical-align: middle;
+
+  text-transform: uppercase;
 }
 
 .services-descr {
@@ -1100,9 +1135,9 @@ body {
   width: 398px;
   margin-bottom: 28px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: left;
   color: #000000;
 }
@@ -1123,9 +1158,10 @@ body {
 
   font-size: 21px;
   line-height: 30px;
+  font-weight: bold;
   color: #ffffff;
   text-align: left;
-  font-weight: bold;
+
   background-color: #32425c;
   border: none;
   outline: none;
@@ -1134,12 +1170,14 @@ body {
 
 .service-list-tab:hover {
   color: #ffffff;
+
   background-color: #293449;
   border: none;
 }
 
 .service-list-tab:focus {
   color: #32425c;
+
   background-color: #ffffff;
   border: none;
   box-shadow: 0 1px 0 0 white;
@@ -1180,12 +1218,13 @@ body {
   margin-top: 29px;
   margin-bottom: 25px;
 
-  font-weight: normal;
   font-size: 36px;
   line-height: 36px;
+  font-weight: normal;
   color: #32425c;
-  text-transform: uppercase;
   text-align: left;
+
+  text-transform: uppercase;
 }
 
 .service-description {
@@ -1229,11 +1268,11 @@ body {
 .about-description-one,
 .about-description-two,
 .about-description-three {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: normal;
   font-stretch: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   text-align: left;
 }
@@ -1270,12 +1309,13 @@ body {
   margin-bottom: 25px;
   padding-top: 0;
 
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
+  font-weight: normal;
   color: #000000;
-  text-transform: uppercase;
   text-align: left;
+
+  text-transform: uppercase;
 }
 
 .about-description-one {
@@ -1327,13 +1367,14 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
 
-  background-color: #ee3643;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
+  text-align: center;
+
+  background-color: #ee3643;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
 }
 
 .contact-send {
@@ -1357,9 +1398,10 @@ body {
   height: 68px;
   margin-right: 172px;
 
+  text-align: center;
+
   background-color: #ee3643;
   box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -1381,8 +1423,9 @@ body {
 .footer-menu, .footer-submenu {
   font-size: 18px;
   line-height: 24px;
-  text-decoration: none;
   text-align: left;
+
+  text-decoration: none;
   list-style: none;
 }
 
@@ -1400,8 +1443,9 @@ body {
 }
 
 .menu-item-link {
-  text-decoration: none;
   color: #f1f5f7;
+
+  text-decoration: none;
 }
 
 .menu-item-link:hover,
@@ -1410,8 +1454,9 @@ body {
 }
 
 .menu-item-link:active {
-  text-decoration: none;
   color: rgba(241, 245, 247, 0.5);
+
+  text-decoration: none;
 }
 
 .footer-second {
@@ -1427,16 +1472,18 @@ body {
   margin-top: 28px;
 
   font-size: 18px;
-  font-weight: normal;
   line-height: 24px;
+  font-weight: normal;
   color: #f3f7f9;
   text-align: left;
-  list-style: none;
   vertical-align: middle;
+
+  list-style: none;
 }
 
 .phone-link {
   color: #f3f7f9;
+
   text-decoration: none;
 }
 
@@ -1454,13 +1501,15 @@ body {
 }
 
 .submenu-item-link, .footer-bottom-link {
-  text-decoration: none;
   color: #ffd180;
+
+  text-decoration: none;
 }
 
 .submenu-item-link:active {
-  text-decoration: none;
   color: rgba(255, 209, 128, 0.5);
+
+  text-decoration: none;
 }
 
 .footer-bottom {
@@ -1505,10 +1554,11 @@ body {
   margin-right: 3px;
   padding-top: 12px;
 
-  border-radius: 50%;
-  background-color: #212a3a;
   text-align: center;
   vertical-align: middle;
+
+  border-radius: 50%;
+  background-color: #212a3a;
 }
 
 .logo-back:hover {
@@ -1549,15 +1599,15 @@ body {
 }
 
 .footer-bottom-link:active {
-  text-decoration: none;
   color: #ee3643;
+
+  text-decoration: none;
 }
 
 /* Modal pop-ups */
 .big-map {
   display: block;
   margin: 0 auto;
-
 }
 
 .contact-form {
@@ -1601,10 +1651,11 @@ body {
   padding-bottom: 13px;
   padding-left: 16px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #a9a9a9;
+
   border: 2px solid #dee3e4;
 }
 
@@ -1618,10 +1669,9 @@ body {
   padding: 0;
   padding-left: 16px;
 
-
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #a9a9a9;
   border: 2px solid #dee3e4;
 }
@@ -1690,14 +1740,15 @@ body {
   margin-right: 16px;
   padding: 11px 62px 10px 59px;
 
-  background-color: #ee3643;
-  color: #ffffff;
   font-size: 14px;
   line-height: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
+  color: #ffffff;
+
+  background-color: #ee3643;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .make-order-button:hover {
@@ -1717,21 +1768,23 @@ body {
   width: 220px;
   padding: 11px 43px 10px 47px;
 
-  color: #000000;
-  background-color: #ffffff;
   font-size: 14px;
   line-height: 18px;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
 }
 
 /* Filter and Sorting sections */
 .sort-item {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: rgba(0, 0, 0, 0.18);
+
   text-decoration: none;
   text-transform: uppercase;
   fill: rgba(0, 0, 0, 0.18);
@@ -1771,16 +1824,17 @@ body {
   padding-top: 7px;
   padding-bottom: 10px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: normal;
   font-size: 13px;
   line-height: 18px;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
+  vertical-align: middle;
+  color: #000000;
+
   text-decoration: none;
   text-transform: uppercase;
-  color: #000000;
   border: solid 1px #e5e5e5;
-  vertical-align: middle;
 }
 
 .page-item.next-item {
@@ -1797,6 +1851,7 @@ body {
 
 .page-currently-open {
   color: #ffffff;
+
   background-color: #ee3643;
   border: solid 1px #ee3643;
 }
@@ -1814,10 +1869,11 @@ body {
   width: 8px;
   height: 12px;
 
-  content: "";
-  color: #c5c5c5;
-  background-image: url("../img/icon-right-small.svg");
   vertical-align: middle;
+  color: #c5c5c5;
+
+  content: "";
+  background-image: url("../img/icon-right-small.svg");
 }
 
 .home-page-link::after {
@@ -1836,13 +1892,14 @@ body {
 }
 
 .breadcrumbs-item {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
-  text-decoration: none;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
+
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .filter-section {
@@ -1857,13 +1914,14 @@ body {
   padding-bottom: 9px;
   padding-left: 18px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: normal;
   font-size: 13px;
   line-height: 18px;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: left;
-  text-transform: uppercase;
   color: #000000;
+
+  text-transform: uppercase;
   background-color: #f7f3ec;
 }
 
@@ -1877,13 +1935,14 @@ body {
 }
 
 .filter-title {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: left;
-  text-transform: uppercase;
   color: #000000;
+
+  text-transform: uppercase;
 }
 
 .producers {
@@ -1904,13 +1963,14 @@ body {
 }
 
 .show-button {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: center;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #000000;
+
   text-transform: uppercase;
   text-decoration: none;
-  color: #000000;
   background-color: #e5e5e5;
 }
 
@@ -1994,9 +2054,9 @@ body {
   display: inline-block;
   margin-bottom: 25px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
   vertical-align: middle;
 }
@@ -2033,10 +2093,11 @@ body {
   margin-right: 11px;
   margin-bottom: 4px;
 
+  vertical-align: middle;
+
   content: "";
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
-  vertical-align: middle;
 }
 
 .check-box:checked+.check-box-label::before {
@@ -2045,16 +2106,18 @@ body {
   height: 23px;
   margin-right: 7px;
 
+  vertical-align: middle;
+
   content: "";
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
-  vertical-align: middle;
 }
 
 .check-box-label {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
+  font-family: "PT Sans", "Arial", sans-serif;
+
   text-transform: uppercase;
 }
 
@@ -2069,10 +2132,11 @@ body {
   margin-right: 8px;
   margin-bottom: 1px;
 
+  vertical-align: middle;
+
   content: "";
   background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
-  vertical-align: middle;
 }
 
 .radio-button:checked+.radio-button-label::before {
@@ -2082,17 +2146,19 @@ body {
   margin-right: 8px;
   margin-bottom: 1px;
 
+  vertical-align: middle;
+
   content: "";
   background-image: url("../img/radio-on.svg");
   background-repeat: no-repeat;
-  vertical-align: middle;
 }
 
 .radio-button-label {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: normal;
   font-size: 15px;
   line-height: 20px;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", sans-serif;
+
   text-transform: uppercase;
 }
 
@@ -2104,17 +2170,18 @@ body {
   font-size: 13px;
   line-height: 18px;
   text-align: left;
-  text-transform: uppercase;
   color: #000000;
+
+  text-transform: uppercase;
   background-color: #f7f3ec;
 }
 
 .sorting-title {
   margin-right: 139px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 13px;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .sorting-list,
@@ -2158,13 +2225,14 @@ body {
   padding-bottom: 27px;
   padding-left: 28px;
 
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
+  font-weight: normal;
   text-align: left;
-  text-transform: uppercase;
   color: #32425c;
+
   background-color: #f4f7f9;
+  text-transform: uppercase;
 }
 
 .catalog-page {
@@ -2182,19 +2250,20 @@ body {
 .about-tool-title {
   margin-bottom: 24px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
+  font-weight: normal;
+  font-family: "Cuprum", "Arial", sans-serif;
   text-align: left;
-  text-transform: uppercase;
   color: #000000;
+
+  text-transform: uppercase;
 }
 
 .about-tool-descr {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: left;
   color: #000000;
 }
