@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: 'Cuprum', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-size: 13px;
   line-height: 24px;
@@ -800,7 +800,7 @@ body {
 
 .item-title {
   display: inline-block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -902,7 +902,7 @@ body {
 }
 
 .discount {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
@@ -919,7 +919,7 @@ body {
   position: absolute;
   bottom: 4px;
   left:42px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
@@ -1009,7 +1009,7 @@ body {
 .services-descr {
   display: block;
   width: 398px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-align: left;
@@ -1132,7 +1132,7 @@ body {
 .about-description-one,
 .about-description-two,
 .about-description-three {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: normal;
@@ -1474,7 +1474,7 @@ body {
 
 .name-placeholder,
 .email-placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   width: 224px;
@@ -1489,7 +1489,7 @@ body {
 .text-placeholder {
   display: block;
   box-sizing: border-box;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   width: 464px;
@@ -1533,7 +1533,7 @@ body {
 }
 
 .cart-form-title {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
 }
 
@@ -1586,7 +1586,7 @@ body {
 
 /* Filter and Sorting sections */
 .sort-item {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.18);
@@ -1621,7 +1621,7 @@ body {
   display: inline-block;
   box-sizing: border-box;
   width: 38px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
@@ -1687,7 +1687,7 @@ body {
 }
 
 .breadcrumbs-item {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
@@ -1702,7 +1702,7 @@ body {
 }
 
 .filter {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
@@ -1726,7 +1726,7 @@ body {
 }
 
 .filter-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
@@ -1751,7 +1751,7 @@ body {
 }
 
 .show-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: center;
@@ -1831,7 +1831,7 @@ body {
 .filter-min-price,
 .filter-max-price {
   display: inline-block;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -1884,7 +1884,7 @@ body {
 }
 
 .check-box-label {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
@@ -1919,7 +1919,7 @@ body {
 }
 
 .radio-button-label {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
@@ -1939,7 +1939,7 @@ body {
 }
 
 .sorting-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 13px;
   margin-right: 139px;
@@ -2007,7 +2007,7 @@ body {
 }
 
 .about-tool-title {
-  font-family: 'Cuprum';
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
@@ -2018,7 +2018,7 @@ body {
 }
 
 .about-tool-descr {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-align: left;
