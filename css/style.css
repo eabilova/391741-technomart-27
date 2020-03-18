@@ -132,9 +132,11 @@ body {
 .search-button[type="search"] {
   font-size: 17px;
   line-height: 18px;
+  font-weight: normal;
+  text-align: left;
 }
 
-.search-button::placeholder {
+.search-button {
   padding-left: 47px;
 
   color: #ffffff;
@@ -142,6 +144,10 @@ body {
 
 .search-icon {
   position: relative;
+}
+
+.search-button::placeholder {
+  color: #ffffff;
 }
 
 .search-icon:before {
@@ -155,15 +161,16 @@ body {
   height: 17px;
 
   content: "";
-  background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" %3E%3Cpath fill="white" opacity="0.3" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"%3E%3C/path%3E%3C/svg%3E') center / contain no-repeat;
+  background: url("../img/icon-search.svg") center / contain no-repeat;
+  opacity: 0.3;
 }
 
 .search-icon:hover::before {
-  background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" %3E%3Cpath fill="white" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"%3E%3C/path%3E%3C/svg%3E') center / contain no-repeat;
+  opacity: 1;
 }
 
 .search-icon:focus-within::before {
-  background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" %3E%3Cpath fill="red" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"%3E%3C/path%3E%3C/svg%3E') center / contain no-repeat;
+  background: url("../img/icon-search-red.svg") center / contain no-repeat;
 }
 
 .search-button:hover {
@@ -187,6 +194,9 @@ body {
   padding-top: 12px;
   padding-bottom: 14px;
 
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: normal;
   vertical-align: middle;
   text-align: left;
 
@@ -276,6 +286,9 @@ body {
   box-sizing: border-box;
   padding: 12px 22px 14px 20px;
 
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: normal;
   vertical-align: middle;
   text-align: center;
 
@@ -613,7 +626,7 @@ body {
   margin-bottom: 20px;
 
   background-color: #ffbf47;
-  background-image: url(../img/can-icon.svg);
+  background-image: url("../img/can-icon.svg");
   background-repeat: no-repeat;
   background-position-x: 213px;
   background-position-y: 31px;
@@ -632,7 +645,7 @@ body {
   margin-bottom: 20px;
 
   background-color: #3bbce3;
-  background-image: url(../img/drill-icon.svg);
+  background-image: url("../img/drill-icon.svg");
   background-repeat: no-repeat;
   background-position-x: 196px;
   background-position-y: 33px;
@@ -643,7 +656,7 @@ body {
   margin-bottom: 20px;
 
   background-color: #dc91d8;
-  background-image: url(../img/truck-icon.svg);
+  background-image: url("../img/truck-icon.svg");
   background-repeat: no-repeat;
   background-position-x: 191px;
   background-position-y: 31px;
@@ -654,7 +667,7 @@ body {
   margin-bottom: 20px;
 
   background-color: #8ed78f;
-  background-image: url(../img/big-cart-icon.svg);
+  background-image: url("../img/big-cart-icon.svg");
   background-repeat: no-repeat;
   background-position-x: 196px;
   background-position-y: 26px;
@@ -664,7 +677,7 @@ body {
   width: 300px;
 
   background-color: #ffc047;
-  background-image: url(../img/deivery-icon.svg);
+  background-image: url("../img/deivery-icon.svg");
   background-repeat: no-repeat;
   background-position-x: 191px;
   background-position-y: 32px;
@@ -854,6 +867,8 @@ body {
   position: absolute;
   bottom: 37px;
 
+  vertical-align: middle;
+
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -1023,7 +1038,8 @@ body {
 
   content: "";
   vertical-align: middle;
-  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="white" opacity="0.3" %3E%3Ccircle cx="4.5" cy="13.5" r="1.5"/%3E%3Ccircle cx="12.5" cy="13.5" r="1.5"/%3E%3Cpath d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/%3E%3C/svg%3E%0A');
+  background-image: url("../img/cart-icon.svg");
+  opacity: 0.3;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1097,7 +1113,7 @@ body {
   text-align: center;
   color: #ffffff;
 
-  background-image: url('../img/item-button.svg');
+  background-image: url("../img/item-button.svg");
 }
 
 /* Popular brands section */
@@ -1252,7 +1268,7 @@ body {
   left: 240px;
 
   display: none;
-  width: 720px;
+  width: 700px;
   height: 250px;
 
   background-color: #f4f7f9;
@@ -1292,7 +1308,7 @@ body {
 }
 
 .delivery {
-  background-image: url(../img/delivery.png);
+  background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
   background-size: 468px 261px;
   background-position-x: 231px;
@@ -1300,7 +1316,7 @@ body {
 }
 
 .guarantee {
-  background-image: url(../img/guarantee.png);
+  background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
   background-size: 389px 283px;
   background-position-x: 319px;
@@ -1308,7 +1324,7 @@ body {
 }
 
 .credit {
-  background-image: url(../img/credit.png);
+  background-image: url("../img/credit.png");
   background-repeat: no-repeat;
   background-size: 465px 285px;
   background-position-x: 245px;
@@ -1415,7 +1431,7 @@ body {
 
 .about-section-button {
   display: block;
-  box-sizing: content-box;
+  box-sizing: border-box;
   width: 220px;
   padding-top: 11px;
   padding-bottom: 10px;
@@ -1659,19 +1675,21 @@ body {
 
 /* Modal pop-ups */
 .big-map {
-  display: block;
+  display: none;
+
+  position: relative;
   margin: 0 auto;
 }
 
 .contact-form {
   position: relative;
 
-  display: block;
+  display: none;
   width: 620px;
 
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(41, 52, 73, 0.5);
-  border-top: 3px solid #ee3643;
+  border-top: 7px solid #ee3643;
 }
 
 .contact-form-top {
@@ -1679,13 +1697,15 @@ body {
   flex-wrap: wrap;
   width: 460px;
   margin: 0 auto;
-  margin-top: 48px;
-  margin-bottom: 37px;
+  margin-top: 45px;
+  margin-bottom: 25px;
 }
 
 .form-item {
   display: inline-block;
   width: 220px;
+  margin: 0;
+  margin-bottom: 6px;
 
   vertical-align: middle;
 }
@@ -1699,10 +1719,11 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 224px;
-  padding-top: 12px;
-  padding-bottom: 13px;
-  padding-left: 16px;
+  width: 220px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  margin-top: 5px;
 
   font-size: 13px;
   line-height: 18px;
@@ -1730,27 +1751,21 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 464px;
-  min-height: 116px;
+  width: 460px;
+  min-height: 114px;
 
-  padding: 0;
-  padding-left: 16px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 14px;
 
   font-size: 13px;
   line-height: 18px;
   font-family: "PT Sans", "Arial", sans-serif;
-  color: #a9a9a9;
+  color: #999999;
   border: 2px solid #dee3e4;
 }
 
-.text-placeholder::placeholder {
-  display: inline;
-  vertical-align: text-top;
-}
-
 .form-elements {
-  margin-bottom: 13px;
-
   font-size: 18px;
   line-height: 18px;
   color: #000000;
@@ -1770,14 +1785,17 @@ body {
 
 .close-button {
   position: absolute;
-  top: 9px;
-  right: 9px;
+  top: 8px;
+  right: 4px;
+
+  border: none;
+  background-color: transparent;
 }
 
 .added-cart-form {
   position: relative;
 
-  display: block;
+  display: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1785,6 +1803,11 @@ body {
 
   border-top: solid 7px #ee3643;
   box-shadow: 0 0 10px rgba(41, 52, 73, 0.5);
+}
+
+.added-cart-form .contact-form-top {
+  margin-top: 18px;
+  margin-bottom: 19px;
 }
 
 .cart-form-title {
@@ -1797,7 +1820,7 @@ body {
   display: inline-block;
   width: 66px;
   height: 66px;
-  margin-right: 32px;
+  margin-right: 33px;
 
   content: "";
   background-image: url("../img/modal-check.svg");
@@ -1844,6 +1867,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  vertical-align: middle;
   color: #000000;
 
   background-color: #ffffff;
@@ -2052,8 +2076,6 @@ body {
 
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
-  border: none;
-  outline: none;
 }
 
 .range-controls {
@@ -2295,6 +2317,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   font-family: "PT Sans", "Arial", sans-serif;
+  vertical-align: middle;
 }
 
 .sorting-list,

@@ -356,11 +356,20 @@
         </div>
       </div>
     </footer>
-    <img class="big-map center" src="img/big-map.png" id="bigMap" width="940" height="446" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    <div class="big-map center" >
+      <button class="close-button" aria-label="Закрыть">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+          <path fill="#ee3643" d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z"/>
+        </svg>
+      </button>
+      <img src="img/big-map.png" id="bigMap" width="940" height="446" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    </div>
     <form class="contact-form center" method="post">
-      <svg class="close-button" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+      <button class="close-button" aria-label="Закрыть">
+      <svg  xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
         <path fill="#ee3643" d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z"/>
       </svg>
+      </button>
       <div class="contact-form-top">
         <p class="form-item">
           <label class="form-elements" for="name">Ваше имя:</label>
@@ -372,7 +381,7 @@
         </p>
         <p>
           <label class="form-elements" for="email-text">Текст письма:</label>
-          <input class="text-placeholder" type="text" id="email-text" name="email-text" placeholder="В свободной форме">
+          <textarea class="text-placeholder" id="email-text" name="email-text" placeholder="В свободной форме"></textarea>
         </p>
       </div>
       <p class="button-back">
