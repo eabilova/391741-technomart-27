@@ -601,6 +601,7 @@ body {
   text-align: center;
   letter-spacing: normal;
   color: #ffffff;
+  vertical-align: middle;
 
   text-decoration: none;
 }
@@ -2258,10 +2259,6 @@ body {
   vertical-align: top;
 }
 
-.check-box {
-  display: none;
-}
-
 .check-box+.check-box-label::before {
   display: inline-block;
   width: 23px;
@@ -2308,8 +2305,8 @@ body {
   text-transform: uppercase;
 }
 
-.radio-button {
-  display: none;
+.check-box:focus + .check-box-label::before {
+  outline:rgb(59, 153, 252) auto 5px;
 }
 
 .radio-button+.radio-button-label::before {
@@ -2358,6 +2355,10 @@ body {
 .check-box:disabled + .check-box-label,
 .radio-button:disabled + .radio-button-label{
   color: rgba(0, 0, 0, 0.4);
+}
+
+.radio-button:focus + .radio-button-label::before {
+  outline:rgb(59, 153, 252) auto 5px;
 }
 
 .sorting {
